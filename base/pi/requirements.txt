@@ -1,0 +1,31 @@
+# Pylon Racing Detection - Base Pi
+# Python 3.9+
+
+# Communication série
+pyserial>=3.5
+
+# Calculs numériques
+numpy>=1.21
+
+# Web framework
+fastapi>=0.100
+uvicorn[standard]>=0.22
+
+# WebSocket
+websockets>=11.0
+
+# Configuration
+pydantic>=2.0
+pydantic-settings>=2.0
+
+# Logging
+structlog>=23.0
+
+# Tests
+pytest>=7.0
+pytest-asyncio>=0.21
+
+# Dev (optionnel)
+# black
+# ruff
+# mypy
