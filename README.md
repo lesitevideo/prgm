@@ -7,20 +7,7 @@
 
 ---
 
-## 📋 Table des matières
-
-- [Contexte et objectif](#contexte-et-objectif)
-- [Principe de fonctionnement](#principe-de-fonctionnement)
-- [Architecture](#architecture)
-- [Contraintes techniques](#contraintes-techniques)
-- [Liste de matériel](#liste-de-matériel)
-- [Installation](#installation)
-- [Roadmap](#roadmap)
-- [Contact](#contact)
-
----
-
-## 🎯 Contexte et objectif
+## Contexte et objectif
 
 Les courses de **Pylon Racing RC** mettent en jeu des avions de grande taille (≈ 3 m, moteurs 75 cc) évoluant à très haute vitesse (jusqu'à 200 km/h), avec des trajectoires très variables :
 
@@ -38,7 +25,7 @@ Il ne s'agit **pas** de faire du tracking continu ni de la localisation fine, ma
 
 ---
 
-## 🔬 Principe de fonctionnement
+## Principe de fonctionnement
 
 ### Détection par franchissement de plan vertical
 
@@ -138,7 +125,7 @@ Utilisation d'une **mesure temporelle** (temps d'arrivée radio), pas de puissan
 
 ---
 
-## ⚡ Contraintes techniques
+## Contraintes techniques
 
 ### Dynamiques
 - **Vitesse max** : 200 km/h (55 m/s)
@@ -165,7 +152,7 @@ Sur zone ±5m : **4 à 8 mesures exploitables** → décision fiable
 
 ---
 
-## 🛠️ Liste de matériel
+## Liste de matériel
 
 ### Budget total : 744€ - 1 194€
 
@@ -245,27 +232,27 @@ Voir [docs/configuration.md](docs/configuration.md) pour :
 
 ---
 
-## 🗓️ Roadmap
+## Roadmap
 
-### Phase 1 - POC laboratoire (2-3 semaines) ✅
+### Phase 1 - POC laboratoire (2-3 semaines)
 - [x] Firmware tag : Émission blinks UWB
 - [x] Firmware ancre : Réception + horodatage + RS485
 - [x] Script Python collecte RS485
 - [x] Tests : 1 tag + 3 ancres
 
-### Phase 2 - Prototype terrain statique (2-3 semaines) 🔄
+### Phase 2 - Prototype terrain statique (2-3 semaines)
 - [ ] Synchronisation maître/esclaves
 - [ ] Algorithme détection de plan
 - [ ] Logique anti-contestation
 - [ ] Logs CSV/JSON structurés
 - [ ] Tests : Tag sur perche, passages manuels
 
-### Phase 3 - Validation dynamique (1-2 semaines) 📅
+### Phase 3 - Validation dynamique (1-2 semaines)
 - [ ] Gestion 4 avions simultanés
 - [ ] Interface web temps réel
 - [ ] Tests terrain : avions réels
 
-### Phase 4 - Industrialisation 🔮
+### Phase 4 - Industrialisation
 - [ ] Documentation utilisateur
 - [ ] Scripts installation automatique
 - [ ] Procédure calibration simplifiée
@@ -273,10 +260,6 @@ Voir [docs/configuration.md](docs/configuration.md) pour :
 
 ---
 
-
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! Voir [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### Points d'attention
 
